@@ -1,0 +1,50 @@
+{
+    "paths": [
+        {
+            "name": "/api",
+            "lambdaFunction": "ChatSystemAWSAmplify",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/api"
+        },
+        {
+            "name": "/test",
+            "lambdaFunction": "ChatSystemAWSAmplify",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/events",
+            "lambdaFunction": "ChatSystemAWSAmplify",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "ChatSystemAWSAmplify",
+    "apiName": "ChatSystemAWSAmplify",
+    "functionArns": [
+        {
+            "lambdaFunction": "ChatSystemAWSAmplify"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-chatsystemawsamplify-dev-155937-authRole",
+        "unAuthRoleName": "amplify-chatsystemawsamplify-dev-155937-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ChatSystemAWSAmplify",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "86db0e31"
+}

@@ -1,0 +1,37 @@
+#form-style {
+  bottom: 0;
+  position: fixed;
+  margin: 1rem;
+}
+
+#input-form {
+  height: 2rem;
+  border-radius: 10rem;
+  border: 0.04rem solid tomato;
+  /* border-bottom: 2px solid silver; */
+  transition: all 0.2s;
+}
+
+#input-form:focus {
+  /* border-bottom: 2px solid #0fcc6d; */
+  border: 0.1rem solid tomato;
+  box-shadow: none;
+  transition: all 0.2s;
+}
+
+#submit-button {
+  border-radius: 4rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: #e1805c;
+  color: white;
+  border: none;
+}
+
+#submit-button:hover {
+  background-color: #ea6533;
+}
+
+#submit-button:focus {
+  box-shadow: none;
+}
